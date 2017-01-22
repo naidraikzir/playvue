@@ -4,12 +4,12 @@
       <img src="./assets/logo.png">
       <h1>Playvue</h1>
     </div>
-    <playvue :file="wings"></playvue>
+    <playvue :file="turbo"></playvue>
   </div>
 </template>
 
 <script>
-import wings from './assets/Wings.mp3'
+import turbo from './assets/Twilight_Turbo_Drive.mp3'
 import Playvue from './components/Playvue.vue'
 
 export default {
@@ -17,7 +17,7 @@ export default {
   components: { Playvue },
   data () {
     return {
-      wings
+      turbo
     }
   }
 }
