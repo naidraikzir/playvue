@@ -103,6 +103,7 @@ export default {
 	height: 30px;
 	background-color: #41b883;
 	box-shadow: 0 6px 12px 0 rgba(65, 184, 131, 0.5);
+	text-align: initial;
 }
 
 [type=range],

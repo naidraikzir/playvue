@@ -1,10 +1,15 @@
 <template>
   <div id="app">
-    <div class="head">
+    <p>
       <img src="./assets/logo.png">
       <h1>Playvue</h1>
-    </div>
+    </p>
+    
     <playvue :file="turbo"></playvue>
+
+    <p>
+      <em>Twilight Turbo Drive by <a href="https://dangermode.bandcamp.com/">Danger Mode</a></em>
+    </p>
   </div>
 </template>
 
@@ -38,6 +43,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin-top: 60px;
+  text-align: center;
 }
 
 h1 {
@@ -45,6 +51,5 @@ h1 {
 }
 
 .head {
-  text-align: center;
 }
 </style>
